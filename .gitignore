@@ -1,0 +1,11 @@
+# Compiled programs and build output
+hello
+*.o
+*.out
+*.exe
+*.dSYM/
+build/
+cmake-build-*/
+Debug/
+Release/
+.DS_Store
