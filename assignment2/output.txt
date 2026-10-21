@@ -1,0 +1,4 @@
+$ ./name_age
+Enter your name: Omar Abdelrazek
+Enter your age: 20
+Hello, I am Omar Abdelrazek! I am 20 year(s) old.

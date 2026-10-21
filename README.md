@@ -1,18 +1,22 @@
-# CSCI-271-Fall-2026
+# CSCI 271 Fall 2026
 
-My name is Omar Abdelrazek, and this will be my repository for CSCI 271.
+Omar Abdelrazek's C++ programming assignments. Each folder contains the source code, a short explanation, and a screenshot of the program output.
 
-The program prints "Hello, World", then asks for your name and prints a greeting with your name.
+| Assignment | Topic |
+| --- | --- |
+| [Assignment 1](assignment1/README.md) | Hello World and Name |
+| [Assignment 2](assignment2/README.md) | Variables, Types, and Input/Output |
+| [Assignment 3](assignment3/README.md) | Decision Making and Control Flow |
+| [Assignment 4](assignment4/README.md) | Iteration and Loop Patterns |
+| [Assignment 5](assignment5/README.md) | One-Dimensional Arrays |
 
-### Compile and run on my Mac
+## Running a program
 
-```bash
-clang++ -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 hello.cpp -o hello
-./hello
+Compile and run each C++ file separately. For example, from the repository root:
+
+```sh
+clang++ -std=c++17 assignment1/hello.cpp -o /tmp/hello
+/tmp/hello
 ```
 
-I use this command as a temporary workaround because my installed Apple compiler is not finding the C++ headers automatically. It points the compiler to the headers already installed on my Mac.
-
-### AI assistance
-
-I wrote the program myself and used ChatGPT for syntax feedback, explanations, compiler troubleshooting, and checking assignment requirements. Codex helped prepare this README and push the files to my GitHub repository.
+The repository was organized with help to make the assignments easier to read and find.

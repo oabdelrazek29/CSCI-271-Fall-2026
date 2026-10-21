@@ -1,0 +1,26 @@
+$ ./score_stats
+Enter score 1: 80
+Enter score 2: 90
+Enter score 3: 75
+Enter score 4: 100
+Enter score 5: 85
+Scores: 80 90 75 100 85
+Sum: 430
+Average: 86
+Highest: 100
+Lowest: 75
+
+$ ./search_count
+Enter a number to search for: 12
+12 first found at index 1
+12 appears 3 time(s)
+
+$ ./search_count
+Enter a number to search for: 99
+99 was not found.
+
+$ ./array_utils
+Forward: 14 3 27 9 50 21
+Reverse: 21 50 9 27 3 14
+Count values above: 20
+Count: 3

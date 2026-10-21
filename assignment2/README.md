@@ -1,14 +1,7 @@
-# Assignment 2
+# Assignment 2: Variables, Types, and Input/Output
 
-## Name and Age Greeting
+My program asks for a name and age, then prints a greeting with both values. I stored the name in a string and the age in an integer. I used `getline` to read a full name with spaces, `cin` to read the age, and `cout` to print the greeting.
 
-`name_age.cpp` is a C++ console program that asks the user for a name and an age. It uses `getline` so names containing spaces are accepted, reads the age as an integer, and prints a greeting containing both values.
+![Program output](code_output.png)
 
-## Compile and run
-
-```bash
-g++ -std=c++17 -Wall -Wextra -pedantic name_age.cpp -o name_age
-./name_age
-```
-
-The program prompts for the name first and the age second, then displays the completed greeting.
+[View the output as text](output.txt).

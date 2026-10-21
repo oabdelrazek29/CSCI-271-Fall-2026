@@ -1,0 +1,4 @@
+$ ./hello
+Hello, World
+Enter your name: Omar Abdelrazek
+Hello, Omar Abdelrazek!
